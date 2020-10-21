@@ -1,5 +1,5 @@
 from django.urls import path
-from .apiviews import PollList, PollDetail, ChoiceList, CreateVote, PollViewSet, UserCreate, LoginView
+from .apiviews import ChoiceList, CreateVote, PollViewSet, UserCreate, LoginView
 from rest_framework.routers import DefaultRouter
 from rest_framework.authtoken import views
 
