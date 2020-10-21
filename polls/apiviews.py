@@ -7,14 +7,14 @@ from django.contrib.auth import authenticate
 from rest_framework.exceptions import PermissionDenied
 
 
-class PollList(generics.ListCreateAPIView):
-    queryset = Poll.objects.all()
-    serializer_class = PollSerializer
+# class PollList(generics.ListCreateAPIView):
+#     queryset = Poll.objects.all()
+#     serializer_class = PollSerializer
 
 
-class PollDetail(generics.RetrieveDestroyAPIView):
-    queryset = Poll.objects.all()
-    serializer_class = PollSerializer
+# class PollDetail(generics.RetrieveDestroyAPIView):
+#     queryset = Poll.objects.all()
+#     serializer_class = PollSerializer
 
 
 class ChoiceList(generics.ListCreateAPIView):
